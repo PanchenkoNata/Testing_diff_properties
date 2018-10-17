@@ -1,0 +1,39 @@
+.wrapper {
+	background-color: #e5e5e5;
+}
+.container {
+	background-color: #ffffe5;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0 -100px;
+}
+.big {
+	height: 500px;
+	min-width: 600px;
+	margin: 200px;
+	background-color: #ffe5ff;
+}
+.small {
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	background-color: #ff0000;
+}
+.container.item1 .big:first-child .small, .container.item1 .big:last-child .small {
+	background-color: #0000ff;
+}
+span {
+	width: 600px;
+}
+span:nth-child(2n) {
+	background-color: #aaaaaa;
+}
+
+.container.item2 div:nth-child(2n) {
+	background-color: #ff00ff;
+}
+
+.container.item2 div:last-child {
+	background-color: #ffffff;
+}
