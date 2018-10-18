@@ -37,3 +37,17 @@ span:nth-child(2n) {
 .container.item2 div:last-child {
 	background-color: #ffffff;
 }
+
+
+
+.test1 {
+    height: 200px;
+    border: solid 3px lightblue;
+    background-image: url("../images/palisade.svg");
+}
+
+.test2 {
+    height: 200px;
+    border: solid 3px lightgreen;
+    background-image: url("../images/line_vert.svg");
+}
